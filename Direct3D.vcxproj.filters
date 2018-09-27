@@ -1,0 +1,323 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Systems\Keyboard.h">
+      <Filter>Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Systems\Mouse.h">
+      <Filter>Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Systems\Time.h">
+      <Filter>Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Systems\Window.h">
+      <Filter>Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Systems\D3D.h">
+      <Filter>Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Viewer\Perspective.h">
+      <Filter>Viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="Viewer\Viewport.h">
+      <Filter>Viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="Landscape\Terrain.h">
+      <Filter>Landscape</Filter>
+    </ClInclude>
+    <ClInclude Include="Viewer\Camera.h">
+      <Filter>Viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="Viewer\FirstPerson.h">
+      <Filter>Viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\FbxData.h">
+      <Filter>Model\Fbx</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\FbxModel.h">
+      <Filter>Model\Fbx</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\FbxUtility.h">
+      <Filter>Model\Fbx</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\FbxModels.h">
+      <Filter>Model\Fbx</Filter>
+    </ClInclude>
+    <ClInclude Include="Program.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Model\BinModel.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\BinaryFile.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Executes\Execute.h">
+      <Filter>Executes</Filter>
+    </ClInclude>
+    <ClInclude Include="Executes\ExeGui.h">
+      <Filter>Executes</Filter>
+    </ClInclude>
+    <ClInclude Include="Executes\GuiSettings.h">
+      <Filter>Executes</Filter>
+    </ClInclude>
+    <ClInclude Include="Renders\GlobalBuffers.h">
+      <Filter>Renders</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\MeshPart.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Path.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Renders\Shader.h">
+      <Filter>Renders</Filter>
+    </ClInclude>
+    <ClInclude Include="Renders\ShaderBuffer.h">
+      <Filter>Renders</Filter>
+    </ClInclude>
+    <ClInclude Include="Renders\States.h">
+      <Filter>Renders</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\String.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Renders\Textures.h">
+      <Filter>Renders</Filter>
+    </ClInclude>
+    <ClInclude Include="Renders\VertexLayouts.h">
+      <Filter>Renders</Filter>
+    </ClInclude>
+    <ClInclude Include="Renders\Material.h">
+      <Filter>Renders</Filter>
+    </ClInclude>
+    <ClInclude Include="Environment\Sky.h">
+      <Filter>Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="Executes\DrawEnv.h">
+      <Filter>Executes</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces\IClonable.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Math.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="landscape\cTerrainTextures.h">
+      <Filter>Landscape</Filter>
+    </ClInclude>
+    <ClInclude Include="Landscape\TerrainBuffer.h">
+      <Filter>Landscape</Filter>
+    </ClInclude>
+    <ClInclude Include="Landscape\cHeightMap.h">
+      <Filter>Landscape</Filter>
+    </ClInclude>
+    <ClInclude Include="Landscape\cBasicMap.h">
+      <Filter>Landscape</Filter>
+    </ClInclude>
+    <ClInclude Include="Landscape\cFixedModels.h">
+      <Filter>Landscape</Filter>
+    </ClInclude>
+    <ClInclude Include="Landscape\cBillboard.h">
+      <Filter>Landscape</Filter>
+    </ClInclude>
+    <ClInclude Include="Executes\Scene.h">
+      <Filter>Executes</Filter>
+    </ClInclude>
+    <ClInclude Include="Polygon\cRectangle.h">
+      <Filter>Polygon</Filter>
+    </ClInclude>
+    <ClInclude Include="Polygon\cWorld.h">
+      <Filter>Polygon</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonParser\JsonParser.h">
+      <Filter>JsonParser</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\ModelManager.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\BoundingBox.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\ConstBuffer.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\Command.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\Commands.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="cSingletone.h" />
+    <ClInclude Include="Executes\User.h">
+      <Filter>Executes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Executes">
+      <UniqueIdentifier>{9cf8f685-25e3-48a2-b6b3-b00c8505ac32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Landscape">
+      <UniqueIdentifier>{e9d4e0d1-41da-48dc-9a5a-743cfcf3720b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{c24bbb6e-9669-4250-a995-30fd5ce477ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renders">
+      <UniqueIdentifier>{30f71ca6-86fc-4a07-8c55-3b9b4a221935}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems">
+      <UniqueIdentifier>{c2abd35d-375a-43b3-ba7e-7b4b24b403bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{409d6f39-6218-4c24-9e39-1646a0cde279}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Viewer">
+      <UniqueIdentifier>{cfbc03d8-52c3-41bd-9fd4-797036f4b8ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model\Fbx">
+      <UniqueIdentifier>{b8e4f9f2-1304-4d99-b482-c0ee4048a072}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Environment">
+      <UniqueIdentifier>{94f17835-fa30-4594-8969-d750d50ca3cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interfaces">
+      <UniqueIdentifier>{dadcfd9b-537e-4c17-b905-72f4c6042a83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Polygon">
+      <UniqueIdentifier>{93db588d-4c75-4b6c-b2a9-b76f3a43f0d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JsonParser">
+      <UniqueIdentifier>{c2fb5517-ee04-4380-8297-3955fe8fc9d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Command">
+      <UniqueIdentifier>{b36f8a3d-000d-4435-9bd7-39b99c724892}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Systems\Mouse.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Systems\Time.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Systems\Window.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Systems\D3D.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Systems\Keyboard.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Viewer\Viewport.cpp">
+      <Filter>Viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="Viewer\Perspective.cpp">
+      <Filter>Viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="Landscape\Terrain.cpp">
+      <Filter>Landscape</Filter>
+    </ClCompile>
+    <ClCompile Include="Viewer\Camera.cpp">
+      <Filter>Viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="Viewer\FirstPerson.cpp">
+      <Filter>Viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\FbxData.cpp">
+      <Filter>Model\Fbx</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\FbxModel.cpp">
+      <Filter>Model\Fbx</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\FbxUtility.cpp">
+      <Filter>Model\Fbx</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\FbxModels.cpp">
+      <Filter>Model\Fbx</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Program.cpp" />
+    <ClCompile Include="Model\BinModel.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\BinaryFile.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Executes\ExeGui.cpp">
+      <Filter>Executes</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\MeshPart.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Path.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Renders\Shader.cpp">
+      <Filter>Renders</Filter>
+    </ClCompile>
+    <ClCompile Include="Renders\States.cpp">
+      <Filter>Renders</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\String.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Renders\Textures.cpp">
+      <Filter>Renders</Filter>
+    </ClCompile>
+    <ClCompile Include="Renders\Material.cpp">
+      <Filter>Renders</Filter>
+    </ClCompile>
+    <ClCompile Include="Environment\Sky.cpp">
+      <Filter>Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Executes\DrawEnv.cpp">
+      <Filter>Executes</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Math.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="landscape\cTerrainTextures.cpp">
+      <Filter>Landscape</Filter>
+    </ClCompile>
+    <ClCompile Include="Landscape\cHeightMap.cpp">
+      <Filter>Landscape</Filter>
+    </ClCompile>
+    <ClCompile Include="Landscape\cBasicMap.cpp">
+      <Filter>Landscape</Filter>
+    </ClCompile>
+    <ClCompile Include="Landscape\cFixedModels.cpp">
+      <Filter>Landscape</Filter>
+    </ClCompile>
+    <ClCompile Include="Landscape\cBillboard.cpp">
+      <Filter>Landscape</Filter>
+    </ClCompile>
+    <ClCompile Include="Executes\Scene.cpp">
+      <Filter>Executes</Filter>
+    </ClCompile>
+    <ClCompile Include="Polygon\cRectangle.cpp">
+      <Filter>Polygon</Filter>
+    </ClCompile>
+    <ClCompile Include="Polygon\cWorld.cpp">
+      <Filter>Polygon</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonParser\JsonParser.cpp">
+      <Filter>JsonParser</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\ModelManager.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\BoundingBox.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Command\Command.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Command\Commands.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Executes\User.cpp">
+      <Filter>Executes</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
